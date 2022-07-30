@@ -1,10 +1,37 @@
-import './App.css';
+import React, { useState } from "react";
+import Menu from './Menu';
+import Categories from './Categories';
+import items from './data';
+import logo from './logo.jpg'
+
+const allCategories = ['pagrindinis', ...new Set(items.map((item) => item.category))];
 
 function App() {
+
+  const [menuItems, setMenuItems] = useState(items);
+  const [activeCategory, setActiveCategory] = useState('');
+  const [categories, setCategories] = useState(allCategories)
+
+  const filterItem = (category) => {
+    setActiveCategory(category);
+    if (category === 'pagrindinis') {
+      setMenuItems(items)
+      return;
+    }
+    const newItems = items.filter((item) => item.category === category);
+    setMenuItems(newItems)
+  }
   return (
-    <div>
-      <h2>Menu App</h2>
-    </div>
+    <main>
+      <section className="menu section">
+        <div className="title">
+          <img src={logo} alt="logo" className="logo" />
+          <h2>Meniu</h2>
+          <div className="underline"></div>
+        </div>
+        <Categories categories={categories} activeCategory={activeCategory} filterItem={filterItem} />
+      </section>
+    </main>
   );
 }
 

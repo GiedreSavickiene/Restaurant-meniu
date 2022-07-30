@@ -2,7 +2,7 @@ const menu = [
     {
         id: 1,
         title: 'Tom Kha',
-        category: 'soups',
+        category: 'sriubos',
         price: 7.60,
         img: './images/item-1.jpeg',
         desc: `Pietų Azijoje paplitusi švelni kokosinė sriuba su vištiena, citrinžole, juodųjų pupelių spaghetti, brokoliais, karališkomis krevetėmis bei shitaki  grybais (didelė porcija)`,
@@ -10,7 +10,7 @@ const menu = [
     {
         id: 2,
         title: 'Butter masala',
-        category: 'lunch',
+        category: 'patiekalai',
         price: 7.90,
         img: './images/item-2.jpeg',
         desc: `Populiarusis “raudonasis” karis. Ingredientai patroškinti kreminiame padaže, kuriame dominuoja pomidorai kartu su sviestu ir anakardžiais `,
@@ -18,7 +18,7 @@ const menu = [
     {
         id: 3,
         title: 'Indiška duonelė Malabari paratha',
-        category: 'additionally',
+        category: 'priedai',
         price: 3.40,
         img: './images/item-3.jpeg',
         desc: `Daugiasluoksnė tradicinė Keralos regiono duonelė, autentiška, kepama ant specialios indiškos krosnelės`,
@@ -26,7 +26,7 @@ const menu = [
     {
         id: 4,
         title: 'Lęšių ir špinatų sriuba',
-        category: 'soups',
+        category: 'sriubos',
         price: 5.60,
         img: './images/item-4.jpeg',
         desc: `Maistinga indiška sriuba, kurioje dominuoja viena populiariausių Indijos virtuvės kruopų - lęšiai, kartu su šviežiais špinatais ir prieskoniais `,
@@ -34,7 +34,7 @@ const menu = [
     {
         id: 5,
         title: 'Kadai',
-        category: 'lunch',
+        category: 'patiekalai',
         price: 7.90,
         img: './images/item-5.jpeg',
         desc: `Tradicinis Šiaurės Indijos karis tirštame pomidorų ir nesmulkintų prieskonių padaže su kapotais svogūnais bei žolelėmis `,
@@ -42,7 +42,7 @@ const menu = [
     {
         id: 6,
         title: 'Indiška duonelė Phulka',
-        category: 'additionally',
+        category: 'priedai',
         price: 3.85,
         img: './images/item-6.jpeg',
         desc: `Vientisa sviestinė duonelė`,
@@ -50,7 +50,7 @@ const menu = [
     {
         id: 7,
         title: 'Tomato lentil shorba',
-        category: 'soups',
+        category: 'sriubos',
         price: 5.60,
         img: './images/item-7.jpeg',
         desc: `Silpnai aštroka, sušildanti pomidorų ir lęšių sriuba `,
@@ -58,7 +58,7 @@ const menu = [
     {
         id: 8,
         title: 'Tikka masala',
-        category: 'lunch',
+        category: 'patiekalai',
         price: 8.90,
         img: './images/item-8.jpeg',
         desc: `Garsusis “oranžinis” Indijos virtuvės karis. Pagardintas indiškais prieskoniais su kreminiu pomidorų ir svogūnų padažu `,
@@ -66,7 +66,7 @@ const menu = [
     {
         id: 9,
         title: 'Citrininiai ryžiai',
-        category: 'additionally',
+        category: 'priedai',
         price: 3.40,
         img: './images/item-9.jpeg',
         desc: ``,
