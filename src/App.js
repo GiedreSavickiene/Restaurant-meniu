@@ -3,7 +3,7 @@ import Menu from './Menu';
 import Categories from './Categories';
 import items from './data';
 import logo from './logo.jpg'
-import { GiHamburgerMenu } from 'react-icons/gi'
+
 
 const allCategories = ['pagrindinis', ...new Set(items.map((item) => item.category))];
 
@@ -24,7 +24,7 @@ function App() {
   }
   return (
     <main>
-      <GiHamburgerMenu />
+
       <section className="menu section">
         <div className="title">
           <img src={logo} alt="logo" className="logo" />
